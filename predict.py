@@ -264,3 +264,4 @@ if __name__ == '__main__':
         if config.tovector:
             shp_file= ''.join([output_dir, '/', abs_filename, '.shp'])
             polygonize(output_file, shp_file)
+        print("tear")
